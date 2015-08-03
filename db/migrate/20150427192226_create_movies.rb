@@ -5,6 +5,7 @@ class CreateMovies < ActiveRecord::Migration
       t.text :summary
       t.text :youtube_embed_id
       t.text :thumbnail
+      t.text :actors, array: true
 
       t.timestamps
     end
