@@ -4,6 +4,8 @@ class CreateReviews < ActiveRecord::Migration
       t.text :body
       t.integer :user_id
       t.integer :movie_id
+      t.text :user
+      t.text :movie
 
       t.timestamps
     end
