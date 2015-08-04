@@ -5,6 +5,8 @@ class CreateActors < ActiveRecord::Migration
       t.integer :year_of_birth
       t.text :thumbnail
 
+      t.integer :movie_id
+
       t.timestamps
     end
   end

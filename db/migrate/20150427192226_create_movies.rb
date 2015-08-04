@@ -7,6 +7,7 @@ class CreateMovies < ActiveRecord::Migration
       t.text :thumbnail
       t.text :actors, array: true
 
+      t.integer :actor_id
 
       t.timestamps
     end
